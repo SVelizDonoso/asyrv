@@ -1,50 +1,59 @@
-Xtreme Vulnerable Web Application (XVWA) 
+Aplicación SOAP y REST Vulnerable(ASYRV)
 =========================================
-XVWA is a badly coded web application written in PHP/MySQL that helps security enthusiasts to learn application security.  It’s not advisable to host this application online as it is designed to be “Xtremely Vulnerable”. We recommend hosting this application in local/controlled environment and sharpening your application security ninja skills with any tools of your own choice. It’s totally legal to break or hack into this. The idea is to evangelize web application security to the community in possibly the easiest and fundamental way. Learn and acquire these skills for good purpose. How you use these skills and knowledge base is not our responsibility. 
+ASYRV es una aplicación escrita en PHP/MySQL, con Servicios Web mal desarrollados(SOAP/REST/XML), esperando ayudar a los entusiastas de la seguridad informática a comprender esta tecnología tan utilizada hoy en día por las Organizaciones. 
+Esta Genial Herramienta tan especializada, puede agudizar tus habilidades en el arte de Hackear Web Services, ten en cuenta que este proyecto es totalmente Legal romperlo o piratearlo. La idea es evangelizar la importancia de desarrollar servicios con seguridad y que en un futuro podamos tener un internet más seguro y libre. Antes que comiences a probar esta app, te pido por favor que adquieras estas habilidades para un buen propósito.
 
 
-![Image of XVWA Home Page]
-(https://pbs.twimg.com/media/CWsFq1SVEAACsCh.png:large) 
 
-XVWA is designed to understand following security issues. 
+ASYRV está diseñado para comprender los siguientes problemas de seguridad.
 
-+ SQL Injection – Error Based 
-+ SQL Injection – Blind
-+ OS Command Injection
-+ XPATH Injection 
-+ Formula Injection
-+ PHP Object Injection 
-+ Unrestricted File Upload
-+ Reflected Cross Site Scripting 
-+ Stored Cross Site Scripting 
-+ DOM Based Cross Site Scripting 
-+ Server Side Request Forgery (Cross Site Port Attacks) 
-+ File Inclusion 
-+ Session Issues 
-+ Insecure Direct Object Reference 
-+ Missing Functional Level Access Control 
-+ Cross Site Request Forgery (CSRF)
-+ Cryptography 
-+ Unvalidated Redirect & Forwards
-+ Server Side Template Injection
+## Vulnerabilidades SOAP:
++ Enumeración de WSDL
++ Inyección SQL (Error) - SOAP
++ Inyección SQL (Ciegas) - SOAP
++ nyección Comandos OS - SOAP
++ Inyección Objetos - SOAP
++ Carga de Archivos - SOAP
++ XSS-Reflejado -SOAP
++ XSS-Almacenado- SOAP
++ SSRF/XSPA - SOAP
++ RDO - SOAP
 
-Good Luck and Happy Hacking!
+## Vulnerabilidades REST:
++ Inyección SQL (Error) - REST
++ Inyección SQL (Ciegas) - REST
++ Inyección Comandos OS - REST
++ Inyección Comandos OS - SOAP
++ Inyección Objetos - REST
++ Carga de Archivos - REST
++ XSS-Reflejado -REST
++ XSS-Almacenado- REST
++ SSRF/XSPA - REST
++ RDO - REST
 
-## Disclaimer 
+## Vulnerabilidades XML:
++ Inyección XPATH
++ Inyección XXE
++ Bomba XML
 
-Do not host this application on live or production environment. XVWA is totally vulnerable application and giving online/live access of this application could lead to complete compromise of your system. We are not responsible for any such bad incidents. Stay safe ! 
+
+## Aclaración
+
+No alojes esta aplicación en linea ni en el entorno de producción. ASYRV es una aplicación de Web Services totalmente vulnerable y el acceso en línea de esta aplicación podría llevar a un completo compromiso de su sistema. No somos responsables de dichos incidentes. Mantengase a salvo por favor !
 
 ## Copyright
-This work is licensed under GNU GENERAL PUBLIC LICENSE Version 3
-To view a copy of this license, visit http://www.gnu.org/licenses/gpl-3.0.txt
+
+Este trabajo esta bajo la licencia GNU GENERAL PUBLIC LICENSE Version 3 
+Para ver una copia de esta licencia visita http://www.gnu.org/licenses/gpl-3.0.txt
 
 
-## Instructions 
-XVWA is hassle-free to setup. You can set this up on windows, linux or Mac. Following are the basic steps you should be doing on your Apache-PHP-MYSQL environment to get this working.  Let that be WAMP, XAMP or anything you prefer to use. 
+## Instrucciones
+ASYRV es fácil de instalar y Puede ser configurado Linux por el momento. Los siguientes son los pasos básicos que debes seguir en tu entorno Para la instalacion. Puedes usar WAMP, XAMP o cualquier cosa Apache-PHP-MYSQL para que funcione correctamente
 
-## Manual Installation Method
 
-Copy the xvwa folder in your web directory. Make sure the directory name remains **xvwa** itself. Make necessary changes in xvwa/config.php for database connection. Example below: 
+## Instalación Manual
+
+Copie la carpeta asyrv en su directorio web raíz. Asegúrese de que el nombre del directorio sea asyrv. Realice los cambios necesarios en asyrv/config.php para la conexión a la base de datos. Ejemplo a continuación:
 
 ```php
 $XVWA_WEBROOT = '';  
@@ -54,44 +63,36 @@ $user = 'root';
 $pass = 'root';
 ```
 
-Make following changes in PHP configuration file
+Realice los siguientes cambios en el archivo de configuración de PHP. 
 
 ```php
 file_uploads = on 
 allow_url_fopen = on 
 allow_url_include = on 
 ```
+Instalar extenciones extensiones XML y JSON según corresponda:
 
-XVWA will be accessible at http://localhost/xvwa/
-
-Setup or reset the database and table here http://localhost/xvwa/setup/
-
-The login details
+```php
+sudo apt-get install php-json php-xml
+sudo apt-get install php5-json php5-xml
+```
+Acceso a la Web : http://localhost/asyrv/
+Configure la base de datos y la tabla accediendo http://localhost/asyrv/setup/ 
+Detalles del Acceso:
 
 ```php
 admin:admin
-xvwa:xvwa
+asyrv:asyrv
 user:vulnerable
 ```
 
-## Automatic Installation Script
-I have written a small script to easily automates XVWA Setup in linux distributions. Run this with *root* to install the dependencies if not found in your linux environment
->https://github.com/s4n7h0/Script-Bucket/blob/master/Bash/xvwa-setup.sh 
-
-## Alternative Setup Environments
-### Docker 
-I have also seen a multiple dockers published to setup XVWA. Our thanks to all of them. Any docker lovers can also checkout below work. https://github.com/tuxotron/xvwa_lamp_container 
-### Live ISO 
-[@knoself](https://twitter.com/knoself) made XVWA live ISO on minimal Ubuntu server 14.04.x [(issue27)](https://github.com/s4n7h0/xvwa/issues/27)
-https://mega.nz/#!4bJ2XRLT!zOa_IZaBz-doqVZz77Rs1tbhXuR8EVBLOHktBGp11Q8 
-```
-User = xvwa
-Pass = toor
-```
-
 ## About 
-XVWA is intentionally designed with many security flaws and enough technical ground to upskill application security knowledge. This whole idea is to evangelize web application security issues. Do let us know your suggestions for improvement or any more vulnerability you would like to see in XVWA future releases. 
 
-## Authors:
-- @s4n7h0 https://twitter.com/s4n7h0
-- @samanL33T https://twitter.com/samanl33t 
+ASYRV está diseñado intencionalmente con muchos fallos de seguridad y suficiente fundamento técnico para mejorar el conocimiento de la seguridad de los Web Services. La idea es evangelizar los problemas de seguridad que afecta esta tecnología. Sus sugerencias son importantes para mejora esta app y si te gustaría ver cualquier otra vulnerabilidad en el proyecto, envíame tu idea para tenerla en cuenta en futuros lanzamientos de ASYRV.
+
+## Autor:
+- Sebastian Veliz Donoso https://www.linkedin.com/in/sebastianvelizdonoso/
+- Correo: cyslabs@gmail.com
+
+## Buena Suerte y Happy Hacking!
+
