@@ -1,0 +1,63 @@
+ <meta charset="iso-8859-1">
+
+ <div class="thumbnail">
+    <!--
+                    <img class="img-responsive" src="http://placehold.it/800x300" alt="">
+                -->
+                <div class="caption-full">
+                    <h4><a href="#">Aplicación SOAP y REST Vulnerable (ASYRV) - Instrucciones</a></h4>
+
+                    <p align="justify">
+                       ASYRV es fácil de instalar y Puede ser configurado Linux por el momento. Los siguientes son los pasos básicos que debes seguir en tu entorno 
+                       Para la instalacion. Puedes usar WAMP, XAMP o cualquier cosa  Apache-PHP-MYSQL para que funcione correctamente  </p>
+                    <p align="justify">
+                       Copie la carpeta asyrv en su directorio web raíz. Asegúrese de que el nombre del directorio sea asyrv. 
+                       Realice los cambios necesarios en asyrv/config.php para la conexión a la base de datos. Ejemplo a continuación:<br><br>
+                        <code>
+                            $ASYRV_WEBROOT = ''; <br>
+                            $host = "localhost"; <br>
+                            $dbname = 'asyrv'; <br> 
+                            $user = 'root'; <br> 
+                            $pass = ''; 
+                        </code><br><br>
+                       
+			Realice los siguientes cambios en el archivo de configuración de PHP. <br><br>
+                        <code>
+                            file_uploads = on  <br>
+                            allow_url_fopen = on <br>
+                            allow_url_include = on 
+                        </code>    
+                        Instalar extenciones extensiones XML y JSON según corresponda:<br><br>
+                        <code>
+                            sudo apt-get install php-json php-xml
+                            sudo apt-get install php5-json php5-xml
+                        </code>  
+                    </p>
+                    <p align="justify">
+                        Acceso a la Web : http://localhost/asyrv/<br>
+                        Configure la base de datos y la tabla accediendo http://localhost/asyrv/setup/ <br>
+                    </p>
+                    <p align="justify">
+                        Detalles del Acceso:<br><br>
+                    <code>
+                        admin:admin<br>
+                        asyrv:asyrv<br>
+                        user:vulnerable 
+                    </code>
+                    </p>
+
+                    
+
+                    </div>
+
+                </div>
+
+                <div class="well">
+                     <p>
+                        <strong>Aclaración</strong><br>
+                       No aloje esta aplicación en linea ni en el entorno de producción. ASYRV es una aplicación totalmente vulnerable y el acceso en línea de esta aplicación
+                       podría llevar a un completo compromiso de su sistema. No somos responsables de dichos incidentes. Mantenerse a salvo por favor ! 
+                    </p>
+                    <hr>
+
+                </div>

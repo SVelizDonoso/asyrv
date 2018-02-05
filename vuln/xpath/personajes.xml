@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Personajes>
+  <persona ID="1">
+    <ID>1</ID>
+    <Name>Gabriel García Márquez</Name>
+    <Pais>Colombia</Pais>
+    <Desc>Gabriel José de la Concordia García Márquez, mejor conocido como Gabriel García Márquez, es un escritor, novelista, cuentista, guionista y periodista colombiano. En 1982 recibió el Premio Nobel de Literatura.
+Gabriel García Márquez está relacionado de manera inherente con el realismo mágico y su obra más conocida, la novela Cien años de soledad, es considerada una de las más representativas de este género literario e incluso se considera que por su éxito es que tal término se aplica a la literatura desde los años setenta. En 2007, la Real Academia Española y la Asociación de Academias de la Lengua Española lanzaron una edición popular conmemorativa de esta novela, por considerarla parte de los grandes clásicos hispánicos de todos los tiempos.</Desc>
+  </persona>
+  <persona ID="2">
+    <ID>2</ID>
+    <Name>Simón Bolívar</Name>
+    <Pais>Venezuela</Pais>
+    <Desc>Simón José Antonio de la Santísima Trinidad Bolívar y Palacios Ponte-Andrade y Blanco, mejor conocido como Simón Bolívar, (Caracas, Capitanía General de Venezuela, 24 de julio de 1783 — Santa Marta, República de Colombia, 17 de diciembre de 1830) fue un militar y político venezolano de la época pre-republicana de la Capitanía General de Venezuela; fundador de la Gran Colombia y una de las figuras más destacadas de la emancipación americana frente al Imperio español. Contribuyó de manera decisiva a la independencia de las actuales Bolivia, Colombia, Ecuador, Panamá, Perú y Venezuela.
+En 1813 le fue concedido el título honorífico de Libertador por el Cabildo de Mérida en Venezuela que, tras serle ratificado en Caracas ese mismo año, quedó asociado a su nombre. Los problemas para llevar adelante sus planes fueron tan frecuentes que llegó a afirmar de sí mismo que era "el hombre de las dificultades" en una carta dirigida al general Francisco de Paula Santander en 1825.</Desc>
+  </persona>
+  <persona ID="3">
+    <ID>3</ID>
+    <Name>Frida Kahlo</Name>
+    <Pais>Mexico</Pais>
+    <Desc>Magdalena Carmen Frida Kahlo Calderón, más conocida como Frida Kahlo (Coyoacán, 6 de julio de 1907 – Coyoacán, 13 de julio de 1954), fue una pintora mexicana.
+Casada con el célebre muralista mexicano Diego Rivera, su vida estuvo cruzada por el infortunio de una enfermedad infantil y por un grave accidente en su juventud que la mantuvo postrada durante largos periodos, llegando a someterse hasta a 32 operaciones quirúrgicas. Llevó una vida poco convencional, fue bisexual y entre sus amantes se encontraba León Trotski. Su obra pictórica gira temáticamente en torno a su biografía y a su propio sufrimiento.
+Pintó unas 200 obras, principalmente autorretratos, en los que proyectó sus dificultades por sobrevivir. La obra de Kahlo está influenciada por su esposo el reconocido pintor Diego Rivera, con el que compartió su gusto por el arte popular mexicano de raíces indígenas, inspirando a otros pintores mexicanos del periodo post-revolucionario.</Desc>
+  </persona>
+  <persona ID="4">
+    <ID>4</ID>
+    <Name>Ernesto Guevara</Name>
+    <Pais>Argentina</Pais>
+    <Desc>Ernesto Guevara (Rosario, 14 de mayo de 1928 - La Higuera, 9 de octubre de 1967), conocido como Che Guevara, fue un político, escritor, periodista y médico argentino-cubano, uno de los ideólogos y comandantes de la Revolución cubana (1953-1959). Guevara participó desde la Revolución y hasta 1965 en la organización del Estado cubano. Desempeñó varios altos cargos de su administración y de su Gobierno, sobre todo en el área económica, fue presidente del Banco Nacional y ministro de Industria. En el área diplomática, actuó como responsable de varias misiones internacionales.</Desc>
+  </persona>
+  <persona ID="5">
+    <ID>5</ID>
+    <Name>Pablo Neruda</Name>
+    <Pais>Chile</Pais>
+    <Desc>Pablo Neruda, de nacimiento Ricardo Eliécer Neftalí Reyes Basoalto (Parral, 12 de julio de 1904 – Santiago, 23 de septiembre de 1973), fue un poeta chileno, considerado entre los mejores y más influyentes artistas de su siglo; «el más grande poeta del siglo XX en cualquier idioma», según Gabriel García Márquez. También fue un destacado activista político, senador, miembro del Comité Central del Partido Comunista, precandidato a la presidencia de su país y embajador en Francia. Entre sus múltiples reconocimientos destacan el Premio Nobel de Literatura en 1971 y un Doctorado Honoris Causa por la Universidad de Oxford. «Ningún poeta del hemisferio occidental de nuestro siglo admite comparación con él», ha escrito el crítico literario Harold Bloom,2 quien lo considera uno de los veintiséis autores centrales del canon de la literatura occidental de todos los tiempos.</Desc>
+  </persona>
+  <persona ID="6">
+    <ID>6</ID>
+    <Name>Emiliano Zapata</Name>
+    <Pais>Mexico</Pais>
+    <Desc>Emiliano Zapata Salazar (Anenecuilco, Morelos, 8 de agosto de 1879-Chinameca, Morelos, 10 de abril de 1919) fue uno de los líderes militares y campesinos más importantes de la Revolución mexicana y un símbolo de la resistencia campesina en México. Como parte del movimiento revolucionario, estuvo al mando del Ejército Libertador del Sur. También fue conocido como el «Caudillo del Sur»</Desc>
+  </persona>
+  <persona ID="7">
+    <ID>8</ID>
+    <Name>Jorge Luis Borges</Name>
+    <Pais>Argentina</Pais>
+    <Desc>Jorge Francisco Isidoro Luis Borges (Buenos Aires, 24 de agosto de 1899 – Ginebra, 14 de junio de 1986) fue un escritor argentino, uno de los autores más destacados de la literatura del siglo XX. Publicó ensayos breves, cuentos y poemas. Su obra, fundamental en la literatura y en el pensamiento universal, y que además, ha sido objeto de minuciosos análisis y de múltiples interpretaciones, trasciende cualquier clasificación y excluye todo tipo de dogmatismo.</Desc>
+  </persona>
+  <persona ID="8">
+    <ID>8</ID>
+    <Name>Andrés Bello</Name>
+    <Pais>Venezuela</Pais>
+    <Desc>Andrés de Jesús María y José Bello López (Caracas, 29 de noviembre de 1781 - Santiago, 15 de octubre de 1865) fue un filósofo, poeta, traductor, filólogo, ensayista, educador, político y jurista venezolano-chileno de la época pre-republicana de la Capitanía General de Venezuela. Considerado como uno de los humanistas más importantes de América, contribuyó en innumerables campos del conocimiento.
+De una profunda educación autodidacta, nació en la ciudad de Caracas, en la entonces Capitanía General de Venezuela, donde vivió hasta 1810. Fue maestro del Libertador Simón Bolívar y participó en el proceso que llevaría a la independencia de Venezuela. Como parte del bando revolucionario, integró la primera misión diplomática a Londres conjuntamente con Luis López Méndez y Simón Bolívar, lugar donde residiría por casi veinte años. En 1829 embarca junto a su familia hacia Chile, donde es contratado por su gobierno, desarrollando grandes obras en el campo del derecho y las humanidades. Como reconocimiento a su mérito humanístico, el Congreso Nacional de Chile le otorgó la nacionalidad por gracia en 1832.</Desc>
+  </persona>
+  <persona ID="9">
+    <ID>9</ID>
+    <Name>Carlos Saavedra Lamas</Name>
+    <Pais>Argentina</Pais>
+    <Desc>Carlos Saavedra Lamas (Buenos Aires, 1 de noviembre de 1878 – 5 de mayo de 1959) fue un político, diplomático y jurista argentino, galardonado con el Premio Nobel de la Paz en 1936, el primer latinoamericano en obtener este galardón. De ascendencia gallega, era bisnieto del coronel Cornelio Saavedra, presidente de la Primera Junta de Gobierno de las Provincias Unidas del Río de la Plata establecida en 1810.</Desc>
+  </persona>
+  <persona ID="10">
+    <ID>10</ID>
+    <Name>Mario Benedetti</Name>
+    <Pais>Uruguay</Pais>
+    <Desc>Su obra se ha traducido a más de 20 idiomas. Entre sus poemas destacados podemos recordar Táctica y Estrategia de 1984; Memoria y Esperanza de 2004 y El amor, las mujeres y la vida de 1995.</Desc>
+  </persona>
+<persona ID="11">
+    <ID>11</ID>
+    <Name>Mario Benedetti</Name>
+    <Pais>Peru</Pais>
+    <Desc>Obtuvo el Premio Nobel de Literatura 2010 que aún está fresco, pero el hombre ha sido una estrella en el escenario mundial literarias durante décadas. En 1994, ganó el Premio Cervantes, se otorga al mejor español de los escritores.</Desc>
+  </persona>
+<persona ID="12">
+    <ID>12</ID>
+    <Name>Gabriela Mistral</Name>
+    <Pais>Chile</Pais>
+    <Desc>Gabriela Mistral, seudónimo de Lucila de María del Perpetuo Socorro Godoy Alcayaga (Vicuña, 7 de abril de 1889-Nueva York, 10 de enero de 1957), fue una poetisa, diplomática y pedagoga chilena. Una de las principales figuras de la poesía y literatura chilena y latinoamericana, fue la primera iberoamericana? premiada con el Nobel:? ganó el de Literatura en 1945.</Desc>
+  </persona>
+</Personajes>
