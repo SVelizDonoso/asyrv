@@ -24,7 +24,6 @@ ASYRV está diseñado para comprender los siguientes problemas de seguridad.
 + Inyección SQL (Error) - REST
 + Inyección SQL (Ciegas) - REST
 + Inyección Comandos OS - REST
-+ Inyección Comandos OS - SOAP
 + Inyección Objetos - REST
 + Carga de Archivos - REST
 + XSS-Reflejado -REST
