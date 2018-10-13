@@ -68,7 +68,7 @@ chmod 755 asyrv/
 cd asyrv
 ```
 Luego se debe crear la base de datos con los siguientes comandos:<br>
-
+```php
 mysql -u root
 CREATE DATABASE asyrvdb;
 CREATE USER 'asyrv@'localhost' IDENTIFIED BY 'asyrv';
