@@ -5,15 +5,15 @@
         <img class="img-responsive" src="http://placehold.it/800x300" alt="">
     -->
     <div class="caption-full">
-        <h3><a href="#">Inyección SQL Basada en Error - SOAP</a></h3>
+        <h3><a href="#">Inyecci&oacute;n SQL Basada en Error - SOAP</a></h3>
         
         <p align="justify">
-	Las inyecciones de SQL siguen siendo una de las formas más comunes de atacar los servicios web, aunque los riesgos son enormes y es muy fácil de evitar. 
-        es una técnica de ataque mediante la cual un usuario malintencionado puede ejecutar código SQL con el privilegio en el que se configura la aplicación. 
-        Las inyecciones de SQL basadas en errores son fáciles de detectar y explotar aún más. Responde a la solicitud del usuario con mensajes de error de back-end detallados. 
-        Estos mensajes de error se generan debido a solicitudes de usuarios especialmente diseñadas, de modo que se rompe la sintaxis de consulta SQL utilizada en la aplicación. 
+	Las inyecciones de SQL siguen siendo una de las formas m&aacute;s comunes de atacar los servicios web, aunque los riesgos son enormes y es muy f&aacute;cil de evitar. 
+        es una t&eacute;cnica de ataque mediante la cual un usuario malintencionado puede ejecutar c&oacute;digo SQL con el privilegio en el que se configura la aplicaci&oacute;n. 
+        Las inyecciones de SQL basadas en errores son f&aacute;ciles de detectar y explotar a&uacute;n m&aacute;s. Responde a la solicitud del usuario con mensajes de error de back-end detallados. 
+        Estos mensajes de error se generan debido a solicitudes de usuarios especialmente dise&ntilde;adas, de modo que se rompe la sintaxis de consulta SQL utilizada en la aplicaci&oacute;n. 
         </p><br><br><div id="posision"></div>
-        <p>Leer más de Inyección SQL Basada en Error<br><br>
+        <p>Leer m&aacute;s de Inyecci&oacute;n SQL Basada en Error<br><br>
         <a target="_blank"" href="https://www.owasp.org/index.php/Inyecci%C3%B3n_SQL"> https://www.owasp.org/index.php/Inyecci%C3%B3n_SQL</a></p>
         <a target="_blank"" href="https://backtrackacademy.com/articulo/inyeccion-sql-definicion-y-ejemplos"> https://backtrackacademy.com/articulo/inyeccion-sql-definicion-y-ejemplos</a></p>
     </div>
@@ -57,7 +57,7 @@
 		     echo "<td rowspan='2'><img src='".utf8_decode($obj->{'url'})."' class='img-circle'></td><td><b>Nombre:</b> </td><td>".utf8_decode($obj->{'nombre'})."</td>";
                      echo "</tr>";
 		     echo "<tr class='table-light'>";
-		     echo "<td><b>Descripción:</b></td><td>".utf8_decode($obj->{'descripcion'})."</td>";
+		     echo "<td><b>Descripci&oacute;n:</b></td><td>".utf8_decode($obj->{'descripcion'})."</td>";
 		     echo "</tr>";
                      echo "</table>";
 	          }else{

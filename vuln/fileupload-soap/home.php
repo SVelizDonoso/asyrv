@@ -7,11 +7,11 @@
         <h3><a href="#">Carga de Archivos Insegura - SOAP</a></h3>
         
         <p align="justify">
-        Como su nombre lo indica, este problema ocurre cuando la aplicación no valida el archivo que el usuario está cargando.
+        Como su nombre lo indica, este problema ocurre cuando la aplicaci&oacute;n no valida el archivo que el usuario est&aacute; cargando.
         Un atacante puede cargar archivos maliciosos llamados webshells 
-        en el servidor que podrían llevar a un compromiso completo del servidor. 
+        en el servidor que podr&iacute;an llevar a un compromiso completo del servidor. 
         </p><br><br>
-        <p>Leer más de Carga de Archivos Insegura<br><br>
+        <p>Leer m&aacute;s de Carga de Archivos Insegura<br><br>
         <a target="_blank" href="https://www.owasp.org/index.php/Unrestricted_File_Upload">https://www.owasp.org/index.php/Unrestricted_File_Upload</a></p>
         <a target="_blank" href="https://www.owasp.org/index.php/Top_10_2007-Ejecuci%C3%B3n_de_Ficheros_Malintencionados">https://www.owasp.org/index.php/Top_10_2007-Ejecuci%C3%B3n_de_Ficheros_Malintencionados</a></p>
 	<a target="_blank" href="http://www.hackplayers.com/2017/03/pentesterlab-write-up-web-for-pentester-1-upload-ldap-xml-attacks.html">http://www.hackplayers.com/2017/03/pentesterlab-write-up-web-for-pentester-1-upload-ldap-xml-attacks.html</a></p>
@@ -47,7 +47,7 @@
                              if(!empty($response)){
                                  echo "<br /> <h3>Respuesta SOAP:</h3><pre>Ruta Imagen: $response</pre>";
                               }else{
-                              echo "<br /> <div class='alert alert-danger'>No se pudo realizar la operación</div>";
+                              echo "<br /> <div class='alert alert-danger'>No se pudo realizar la operaci&oacute;n</div>";
                               }
 		     }else {
                             echo " <br /><div class='alert alert-danger'>Error al Subir Imagen, Formato Permitido jpg y png!</div>";

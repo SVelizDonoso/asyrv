@@ -5,15 +5,15 @@
         <img class="img-responsive" src="http://placehold.it/800x300" alt="">
     -->
     <div class="caption-full">
-        <h3><a href="#">Inyección de Objetos PHP - REST</a></h3>
+        <h3><a href="#">Inyecci&oacute;n de Objetos PHP - REST</a></h3>
         
         <p align="justify">
-        Aunque PHP Object Injection no es una vulnerabilidad muy común y también difícil de explotar, se considera que es una vulnerabilidad realmente peligrosa, ya que podría 
-		llevar a un atacante a realizar diferentes tipos de ataques maliciosos, como Inyección de código, Inyección SQL, Rutas transversales y Denegación de servicio,
-	        según el contexto de la aplicación. La vulnerabilidad de inyección de objetos PHP ocurre cuando las entradas suministradas por el usuario no se sanitizan adecuadamente 
-		antes de pasar a la función PHP unserialize () en el servidor. Dado que PHP permite la serialización de objetos, los atacantes podrían pasar cadenas seriales ad-hoc 
-		a las llamadas unserialize() vulnerables, lo que da como resultado una inyección arbitraria de objetos PHP en el alcance de la aplicación.</p><br><br>
-         <p>Leer más de Inyección de objetos PHP<br><br>
+        Aunque PHP Object Injection no es una vulnerabilidad muy com&uacute;n y tambi&eacute;n dif&iacute;cil de explotar, se considera que es una vulnerabilidad realmente peligrosa, ya que podr&iacute;a 
+		llevar a un atacante a realizar diferentes tipos de ataques maliciosos, como Inyecci&oacute;n de c&oacute;digo, Inyecci&oacute;n SQL, Rutas transversales y Denegaci&oacute;n de servicio,
+	        seg&uacute;n el contexto de la aplicaci&oacute;n. La vulnerabilidad de inyecci&oacute;n de objetos PHP ocurre cuando las entradas suministradas por el usuario no se sanitizan adecuadamente 
+		antes de pasar a la funci&oacute;n PHP unserialize () en el servidor. Dado que PHP permite la serializaci&oacute;n de objetos, los atacantes podr&iacute;an pasar cadenas seriales ad-hoc 
+		a las llamadas unserialize() vulnerables, lo que da como resultado una inyecci&oacute;n arbitraria de objetos PHP en el alcance de la aplicaci&oacute;n.</p><br><br>
+         <p>Leer m&aacute;s de Inyecci&oacute;n de objetos PHP<br><br>
 	<strong><a target="_blank"href="http://www.elladodelmal.com/2014/11/ataques-de-php-object-injection-en.html">http://www.elladodelmal.com/2014/11/ataques-de-php-object-injection-en.html</a></p></strong>
         <strong><a target="_blank"href="http://blog.alguien.site/2013/08/php-object-injection.html">http://blog.alguien.site/2013/08/php-object-injection.html</a></p></strong>
 	<strong><a target="_blank"href="https://www.owasp.org/index.php/PHP_Object_Injection">https://www.owasp.org/index.php/PHP_Object_Injection</a></p></strong>

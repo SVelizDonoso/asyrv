@@ -1,15 +1,15 @@
  <div class="thumbnail">
     <div class="caption-full">
-        <h3><a href="#">Inyección de Objetos PHP - SOAP</a></h3>
+        <h3><a href="#">Inyeccin de Objetos PHP - SOAP</a></h3>
         
         <p align="justify">
-		Aunque PHP Object Injection no es una vulnerabilidad muy común y también difícil de explotar, se considera que es una vulnerabilidad realmente peligrosa, ya que podría 
-		llevar a un atacante a realizar diferentes tipos de ataques maliciosos, como Inyección de código, Inyección SQL, Rutas transversales y Denegación de servicio,
-	        según el contexto de la aplicación. La vulnerabilidad de inyección de objetos PHP ocurre cuando las entradas suministradas por el usuario no se sanitizan adecuadamente 
-		antes de pasar a la función PHP unserialize () en el servidor. Dado que PHP permite la serialización de objetos, los atacantes podrían pasar cadenas seriales ad-hoc 
-		a las llamadas unserialize() vulnerables, lo que da como resultado una inyección arbitraria de objetos PHP en el alcance de la aplicación.<br><br>
+		Aunque PHP Object Injection no es una vulnerabilidad muy comn y tambin difcil de explotar, se considera que es una vulnerabilidad realmente peligrosa, ya que podra 
+		llevar a un atacante a realizar diferentes tipos de ataques maliciosos, como Inyeccin de cdigo, Inyeccin SQL, Rutas transversales y Denegacin de servicio,
+	        segn el contexto de la aplicacin. La vulnerabilidad de inyeccin de objetos PHP ocurre cuando las entradas suministradas por el usuario no se sanitizan adecuadamente 
+		antes de pasar a la funcin PHP unserialize () en el servidor. Dado que PHP permite la serializacin de objetos, los atacantes podran pasar cadenas seriales ad-hoc 
+		a las llamadas unserialize() vulnerables, lo que da como resultado una inyeccin arbitraria de objetos PHP en el alcance de la aplicacin.<br><br>
         </p>         
-	<p>Leer más de Inyección de objetos PHP<br><br><div id="posision"></div>
+	<p>Leer ms de Inyeccin de objetos PHP<br><br><div id="posision"></div>
 	<strong><a target="_blank"href="http://www.elladodelmal.com/2014/11/ataques-de-php-object-injection-en.html">http://www.elladodelmal.com/2014/11/ataques-de-php-object-injection-en.html</a></p></strong>
         <strong><a target="_blank"href="http://blog.alguien.site/2013/08/php-object-injection.html">http://blog.alguien.site/2013/08/php-object-injection.html</a></p></strong>
 	<strong><a target="_blank"href="https://www.owasp.org/index.php/PHP_Object_Injection">https://www.owasp.org/index.php/PHP_Object_Injection</a></p></strong>

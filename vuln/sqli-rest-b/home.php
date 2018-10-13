@@ -5,14 +5,14 @@
         <img class="img-responsive" src="http://placehold.it/800x300" alt="">
     -->
     <div class="caption-full">
-        <h3><a href="#">Inyección SQL a Ciegas - REST</a></h3>
+        <h3><a href="#">Inyecci&oacute;n SQL a Ciegas - REST</a></h3>
         
         <p align="justify">
-	Las inyecciones SQL a ciegas son difíciles de detectar y explotar ya que el Servicio WEB está diseñada para manejar errores y excepciones inteligentemente. Sin embargo, 
-        la vulnerabilidad aún existe. Las inyecciones SQL a ciegas son casi idénticas a las inyecciones de SQL basadas en errores o normales. La diferencia aquí es que el atacante no verá ningún mensaje de error de back-end en este caso.
-         Dado que no se proporcionan errores en las respuestas web, si no se cuenta con el entranamiento adecuado, resulta difícil para un atacante explotar esta vulnerabilidad. 
+	Las inyecciones SQL a ciegas son dif&iacute;ciles de detectar y explotar ya que el Servicio WEB est&aacute; dise&ntilde;ada para manejar errores y excepciones inteligentemente. Sin embargo, 
+        la vulnerabilidad a&uacute;n existe. Las inyecciones SQL a ciegas son casi id&eacute;nticas a las inyecciones de SQL basadas en errores o normales. La diferencia aqu&iacute; es que el atacante no ver&aacute; ning&uacute;n mensaje de error de back-end en este caso.
+         Dado que no se proporcionan errores en las respuestas web, si no se cuenta con el entranamiento adecuado, resulta dif&iacute;cil para un atacante explotar esta vulnerabilidad. 
         </p><br><br>
-        <p>Leer más de Inyección SQL Basada en Error<br><br>
+        <p>Leer m&aacute;s de Inyecci&oacute;n SQL Basada en Error<br><br>
         <a target="_blank"" href="https://www.owasp.org/index.php/Inyecci%C3%B3n_SQL"> https://www.owasp.org/index.php/Inyecci%C3%B3n_SQL</a></p>
         <a target="_blank"" href="https://backtrackacademy.com/articulo/inyeccion-sql-definicion-y-ejemplos"> https://backtrackacademy.com/articulo/inyeccion-sql-definicion-y-ejemplos</a></p>
     </div>
@@ -58,7 +58,7 @@ function Restblogs() {
 	tabla +=  "<td rowspan='3'><img src='"+myObj.img+"' class='img-thumbnail'></td><td><b>Nombre:</b> </td><td>"+myObj.nombre+"</td>";
         tabla +=  "</tr>";
 	tabla +=  "<tr class='table-light'>";
-	tabla +=  "<td><b>Descripción:</b></td><td>"+myObj.desc+"</td>";
+	tabla +=  "<td><b>Descripci&oacute;n:</b></td><td>"+myObj.desc+"</td>";
 	tabla +=  "</tr>";
         tabla +=  "<tr class='table-light'>";
 	tabla +=  "<td><b>URL:</b></td><td>"+myObj.url+"</td>";

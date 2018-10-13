@@ -8,9 +8,9 @@
         <h3><a href="#">Secuencias de Comandos en Sitios Cruzados (XSS) - Reflejados -SOAP</a></h3>
         
         <p align="justify">
-        Cross Site Scripting ataca el abuso de la funcionalidad del navegador para enviar scripts maliciosos a la máquina del cliente. En otras palabras, este es un ataque del lado del cliente. Los ataques de Cross Site Scripting generalmente se clasifican en dos categorías: almacenados y reflejados. En los ataques reflejados, la aplicación refleja el script malicioso en el navegador. El servidor no almacena nada, solo envía de vuelta las entradas de los usuarios, por ejemplo, mensajes de error, resultados de búsqueda, etc. Dichos ataques hacen campaña a través de diferentes rutas como correos electrónicos, chats o en sitios web de terceros..  
+        Cross Site Scripting ataca el abuso de la funcionalidad del navegador para enviar scripts maliciosos a la m&aacute;quina del cliente. En otras palabras, este es un ataque del lado del cliente. Los ataques de Cross Site Scripting generalmente se clasifican en dos categor&iacute;as: almacenados y reflejados. En los ataques reflejados, la aplicaci&oacute;n refleja el script malicioso en el navegador. El servidor no almacena nada, solo env&iacute;a de vuelta las entradas de los usuarios, por ejemplo, mensajes de error, resultados de b&uacute;squeda, etc. Dichos ataques hacen campa&ntilde;a a trav&eacute;s de diferentes rutas como correos electr&oacute;nicos, chats o en sitios web de terceros..  
         </p><br><br>
-        <p>Leer más de Secuencias de comandos en sitios cruzados (XSS) - Reflejados<br><br>
+        <p>Leer m&aacute;s de Secuencias de comandos en sitios cruzados (XSS) - Reflejados<br><br>
         <a target="_blank" href="https://backtrackacademy.com/articulo/xss-capturando-cookies-de-sesion">https://backtrackacademy.com/articulo/xss-capturando-cookies-de-sesion</a></p>
 	<a target="_blank" href="http://www.reydes.com/d/?q=Cross_Site_Scripting_XSS_Reflejado_en_OWASP_Vicnum">http://www.reydes.com/d/?q=Cross_Site_Scripting_XSS_Reflejado_en_OWASP_Vicnum </a></p>
 	<a target="_blank" href="https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)">https://www.owasp.org/index.php/Cross-site_Scripting_(XSS) </a></p>
@@ -59,11 +59,11 @@
 			$response=$client->call('XSSFiltro2',array("msj" => $msj));
                     }elseif ($i == 4) {
 			$response=$client->call('XSSFiltro3',array("pagina" => $msj));
-                    }else{echo " <div class='alert alert-danger'>Error Parametro Selección</div>";}
+                    }else{echo " <div class='alert alert-danger'>Error Parametro Selecci&oacute;n</div>";}
                   if(!empty($response)){
                        echo " <h3>Respuesta SOAP:</h3><pre>".base64_decode($response)."</pre>";
                    }else{
-		       echo " <div class='alert alert-danger'>No se pudo realizar la operación</div>";
+		       echo " <div class='alert alert-danger'>No se pudo realizar la operaci&oacute;n</div>";
 		  }
           }
 ?>

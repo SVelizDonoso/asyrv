@@ -8,9 +8,9 @@
         <h3><a href="#">Bomba XML</a></h3>
         
         <p align="justify">
-        Las vulnerabilidades de expansión de las entidades XML surgen porque la especificación XML permite que los documentos XML definan entidades que hacen referencia a otras entidades definidas dentro del documento. Si esto se hace recursivamente a una profundidad significativa, entonces el analizador XML consumirá cantidades cada vez mayores de la memoria y los recursos del procesador a medida que se procesa cada nivel de recursión. Esto podría dar como resultado una condición de denegación de servicio, haciendo que toda la aplicación deje de funcionar.
+        Las vulnerabilidades de expansin de las entidades XML surgen porque la especificacin XML permite que los documentos XML definan entidades que hacen referencia a otras entidades definidas dentro del documento. Si esto se hace recursivamente a una profundidad significativa, entonces el analizador XML consumir cantidades cada vez mayores de la memoria y los recursos del procesador a medida que se procesa cada nivel de recursin. Esto podra dar como resultado una condicin de denegacin de servicio, haciendo que toda la aplicacin deje de funcionar.
         </p><br><br>
-        <p>Leer más de Bomba XML<br><br>
+        <p>Leer ms de Bomba XML<br><br>
         <a target="_blank" href="https://www.soapui.org/security-testing/security-scans/xml-bomb.html">https://www.soapui.org/security-testing/security-scans/xml-bomb.html</a></p>
         <a target="_blank" href="http://www.securitybydefault.com/2013/09/ataques-basados-en-entidades-xml.html">http://www.securitybydefault.com/2013/09/ataques-basados-en-entidades-xml.html </a></p>
         <a target="_blank" href="https://backtrackacademy.com/articulo/explorando-la-vulnerabilidad-xxe-xml-external-entity">https://backtrackacademy.com/articulo/explorando-la-vulnerabilidad-xxe-xml-external-entity</a></p>

@@ -7,9 +7,9 @@
         <h3><a href="#">Secuencias de Comandos en Sitios Cruzados (XSS) - Reflejados -REST</a></h3>
         
         <p align="justify">
-        Cross Site Scripting ataca el abuso de la funcionalidad del navegador para enviar scripts maliciosos a la máquina del cliente. En otras palabras, este es un ataque del lado del cliente. Los ataques de Cross Site Scripting generalmente se clasifican en dos categorías: almacenados y reflejados. En los ataques reflejados, la aplicación refleja el script malicioso en el navegador. El servidor no almacena nada, solo envía de vuelta las entradas de los usuarios, por ejemplo, mensajes de error, resultados de búsqueda, etc. Dichos ataques hacen campaña a través de diferentes rutas como correos electrónicos, chats o en sitios web de terceros..  
+        Cross Site Scripting ataca el abuso de la funcionalidad del navegador para enviar scripts maliciosos a la mquina del cliente. En otras palabras, este es un ataque del lado del cliente. Los ataques de Cross Site Scripting generalmente se clasifican en dos categoras: almacenados y reflejados. En los ataques reflejados, la aplicacin refleja el script malicioso en el navegador. El servidor no almacena nada, solo enva de vuelta las entradas de los usuarios, por ejemplo, mensajes de error, resultados de bsqueda, etc. Dichos ataques hacen campaa a travs de diferentes rutas como correos electrnicos, chats o en sitios web de terceros..  
         </p><br><br>
-        <p>Leer más de Secuencias de comandos en sitios cruzados (XSS) - Reflejados<br><br>
+        <p>Leer ms de Secuencias de comandos en sitios cruzados (XSS) - Reflejados<br><br>
         <a target="_blank" href="https://backtrackacademy.com/articulo/xss-capturando-cookies-de-sesion">https://backtrackacademy.com/articulo/xss-capturando-cookies-de-sesion</a></p>
 	<a target="_blank" href="http://www.reydes.com/d/?q=Cross_Site_Scripting_XSS_Reflejado_en_OWASP_Vicnum">http://www.reydes.com/d/?q=Cross_Site_Scripting_XSS_Reflejado_en_OWASP_Vicnum </a></p>
 	<a target="_blank" href="https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)">https://www.owasp.org/index.php/Cross-site_Scripting_(XSS) </a></p>

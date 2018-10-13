@@ -5,14 +5,14 @@
         <img class="img-responsive" src="http://placehold.it/800x300" alt="">
     -->
     <div class="caption-full">
-        <h3><a href="#">Enumeración de WSDL</a></h3>
+        <h3><a href="#">Enumeracin de WSDL</a></h3>
         
         <p align="justify">
-         La mayoría de los servicios SOAP se implementan para procesar solicitudes dadas por un usuario a través de una aplicación web. En escenarios comunes, 
-         el archivo WSDL no está expuesto al público. Sin embargo, si un atacante puede acceder al archivo WSDL de una aplicación, puede intentar enumerar y buscar los servicios 
-	 ocultos utilizados por la aplicación web.La enumeración WSDL tiene como objetivo descubrir servicios web no públicos recuperando su archivo WSDL.
+         La mayora de los servicios SOAP se implementan para procesar solicitudes dadas por un usuario a travs de una aplicacin web. En escenarios comunes, 
+         el archivo WSDL no est expuesto al pblico. Sin embargo, si un atacante puede acceder al archivo WSDL de una aplicacin, puede intentar enumerar y buscar los servicios 
+	 ocultos utilizados por la aplicacin web.La enumeracin WSDL tiene como objetivo descubrir servicios web no pblicos recuperando su archivo WSDL.
         </p><br><br>
-        <p>Leer más de Enumeracón de WSDL<br><br>
+        <p>Leer ms de Enumeracn de WSDL<br><br>
         <a target="_blank" href="https://es.wikipedia.org/wiki/WSDL">https://es.wikipedia.org/wiki/WSDL</a></p>
         <a target="_blank" href="http://www.ws-attacks.org/WSDL_Disclosure">http://www.ws-attacks.org/WSDL_Disclosure</a></p>
         <a target="_blank" href="https://www.soapui.org/security-testing/security-scans/sql-injection.html">https://www.soapui.org/security-testing/security-scans/sql-injection.html</a></p>

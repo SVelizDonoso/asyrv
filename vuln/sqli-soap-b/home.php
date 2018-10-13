@@ -5,14 +5,14 @@
         <img class="img-responsive" src="http://placehold.it/800x300" alt="">
     -->
     <div class="caption-full">
-        <h3><a href="#">Inyección SQL Basada a Ciegas - SOAP</a></h3>
+        <h3><a href="#">Inyeccin SQL Basada a Ciegas - SOAP</a></h3>
         
         <p align="justify">
-	Las inyecciones SQL a ciegas son difíciles de detectar y explotar ya que el Servicio WEB está diseñada para manejar errores y excepciones inteligentemente. 
-        Sin embargo, la vulnerabilidad aún existe. Las inyecciones SQL a ciegas son casi idénticas a las inyecciones de SQL basadas en errores o normales. 
-        La diferencia aquí es que el atacante no verá ningún mensaje de error de back-end en este caso. Dado que no se proporcionan errores en las respuestas web, 
-        si no se cuenta con el entranamiento adecuado, resulta difícil para un atacante explotar esta vulnerabilidad.</p><br><br>
-        <p>Leer más de Inyección SQL Basada a Ciegas - SOAP<br><br>
+	Las inyecciones SQL a ciegas son difciles de detectar y explotar ya que el Servicio WEB est diseada para manejar errores y excepciones inteligentemente. 
+        Sin embargo, la vulnerabilidad an existe. Las inyecciones SQL a ciegas son casi idnticas a las inyecciones de SQL basadas en errores o normales. 
+        La diferencia aqu es que el atacante no ver ningn mensaje de error de back-end en este caso. Dado que no se proporcionan errores en las respuestas web, 
+        si no se cuenta con el entranamiento adecuado, resulta difcil para un atacante explotar esta vulnerabilidad.</p><br><br>
+        <p>Leer ms de Inyeccin SQL Basada a Ciegas - SOAP<br><br>
         <a target="_blank" href="https://www.owasp.org/index.php/Inyecci%C3%B3n_SQL_Ciega"> https://www.owasp.org/index.php/Inyecci%C3%B3n_SQL_Ciega</a></p>
         <a target="_blank" href="http://www.elladodelmal.com/2007/06/blind-sql-injection-i-de-en-mysql.html"> http://www.elladodelmal.com/2007/06/blind-sql-injection-i-de-en-mysql.html</a></p>
         <a target="_blank" href="http://www.securitybydefault.com/2014/05/blind-sqli-cuando-la-inyeccion-no.html"> http://www.securitybydefault.com/2014/05/blind-sqli-cuando-la-inyeccion-no.html</a></p>
@@ -57,7 +57,7 @@
 		     echo "<td rowspan='2'><img src='".utf8_decode($obj->{'url'})."' class='img-circle'></td><td><b>Nombre:</b> </td><td>".utf8_decode($obj->{'nombre'})."</td>";
                      echo "</tr>";
 		     echo "<tr class='table-light'>";
-		     echo "<td><b>Descripción:</b></td><td>".utf8_decode($obj->{'descripcion'})."</td>";
+		     echo "<td><b>Descripcin:</b></td><td>".utf8_decode($obj->{'descripcion'})."</td>";
 		     echo "</tr>";
                      echo "</table>";
 	          }else{

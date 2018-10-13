@@ -5,12 +5,12 @@
         <img class="img-responsive" src="http://placehold.it/800x300" alt="">
     -->
     <div class="caption-full">
-        <h3><a href="#">Falsificación de Solicitudes del Lado del Servidor (SSRF/XSPA) - SREST</a></h3>
+        <h3><a href="#">Falsificaci&oacute;n de Solicitudes del Lado del Servidor (SSRF/XSPA) - SREST</a></h3>
         
         <p align="justify">
-        Esta vulnerabilidad también conocida como Cross Site Port Attack ocurre cuando un atacante tiene la capacidad de iniciar solicitudes desde el servidor afectado. Un atacante puede engañar al servidor web que probablemente se ejecute detrás de un firewall para que se envíe solicitudes a sí mismo para identificar los servicios que se ejecutan en él, o incluso puede enviar tráfico de enlace a otros servidores.
+        Esta vulnerabilidad tambi&eacute;n conocida como Cross Site Port Attack ocurre cuando un atacante tiene la capacidad de iniciar solicitudes desde el servidor afectado. Un atacante puede enga&ntilde;ar al servidor web que probablemente se ejecute detr&aacute;s de un firewall para que se env&iacute;e solicitudes a s&iacute; mismo para identificar los servicios que se ejecutan en &eacute;l, o incluso puede enviar tr&aacute;fico de enlace a otros servidores.
         </p><br><br>
-        <p>Leer más de Falsificación de solicitudes del lado del servidor <br><br>
+        <p>Leer m&aacute;s de Falsificaci&oacute;n de solicitudes del lado del servidor <br><br>
 	<a target="_blank" href="http://www.elladodelmal.com/2015/04/ssrf-server-side-request-forgery-xspa.html">http://www.elladodelmal.com/2015/04/ssrf-server-side-request-forgery-xspa.html</a></p>
 	<a target="_blank" href="http://blog.elevenpaths.com/2015/11/como-funciona-server-side-request.html">http://blog.elevenpaths.com/2015/11/como-funciona-server-side-request.html</a></p>
         <a target="_blank" href="https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit">https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit</a></p>

@@ -7,11 +7,11 @@
         <h3><a href="#">Carga de Archivos Insegura - REST</a></h3>
         
         <p align="justify">
-        Como su nombre lo indica, este problema ocurre cuando la aplicación no valida el archivo que el usuario está cargando.
+        Como su nombre lo indica, este problema ocurre cuando la aplicacin no valida el archivo que el usuario est cargando.
         Un atacante puede cargar archivos maliciosos llamados webshells 
-        en el servidor que podrían llevar a un compromiso completo del servidor. 
+        en el servidor que podran llevar a un compromiso completo del servidor. 
         </p><br><br>
-        <p>Leer más de Carga de Archivos Insegura<br><br>
+        <p>Leer ms de Carga de Archivos Insegura<br><br>
         <a target="_blank" href="https://www.owasp.org/index.php/Unrestricted_File_Upload">https://www.owasp.org/index.php/Unrestricted_File_Upload</a></p>
         <a target="_blank" href="https://www.owasp.org/index.php/Top_10_2007-Ejecuci%C3%B3n_de_Ficheros_Malintencionados">https://www.owasp.org/index.php/Top_10_2007-Ejecuci%C3%B3n_de_Ficheros_Malintencionados</a></p>
 	<a target="_blank" href="http://www.hackplayers.com/2017/03/pentesterlab-write-up-web-for-pentester-1-upload-ldap-xml-attacks.html">http://www.hackplayers.com/2017/03/pentesterlab-write-up-web-for-pentester-1-upload-ldap-xml-attacks.html</a></p>

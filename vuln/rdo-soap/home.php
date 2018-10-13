@@ -6,10 +6,10 @@
         <h3><a href="#">Referecia Directa A Objetos - SOAP</a></h3>
         
         <p align="justify">
-         Esta vulnerabilidad ocurre cuando la aplicación expone objetos directos a un recurso interno, como archivos, directorio, claves, etc. Tales mecanismos podrían llevar a un atacante a predecir objetos que también se referirían a recursos no autorizados..
-         <br> </ p> <p> Inicie sesión en la aplicación antes de explorar esta vulnerabilidad. </p>
-         <pre> Para dar más valor a este ejemplo, se agregó más de una forma de explotación.</pre><br>
-        <p>Leer más de Referecia Directa A Objetos:<br><br>
+         Esta vulnerabilidad ocurre cuando la aplicacin expone objetos directos a un recurso interno, como archivos, directorio, claves, etc. Tales mecanismos podran llevar a un atacante a predecir objetos que tambin se referiran a recursos no autorizados..
+ <br> </ p> <p> Inicie sesin en la aplicacin antes de explorar esta vulnerabilidad. </p>
+         <pre> Para dar ms valor a este ejemplo, se agreg ms de una forma de explotacin.</pre><br>
+        <p>Leer ms de Referecia Directa A Objetos:<br><br>
         <a target="_blank" href="https://www.owasp.org/index.php/Top_10_2007-Referencia_Insegura_y_Directa_a_Objetos">https://www.owasp.org/index.php/Top_10_2007-Referencia_Insegura_y_Directa_a_Objetos</a></p>
 	<a target="_blank" href="https://www.securityartwork.es/2010/03/30/owasp-top-10-iv-referencia-directa-a-objetos-insegura/">https://www.securityartwork.es/2010/03/30/owasp-top-10-iv-referencia-directa-a-objetos-insegura/ </a></p>
         <a target="_blank" href="https://www.owasp.org/index.php/Testing_for_Insecure_Direct_Object_References_(OTG-AUTHZ-004)">https://www.owasp.org/index.php/Testing_for_Insecure_Direct_Object_References_(OTG-AUTHZ-004)</a></p>

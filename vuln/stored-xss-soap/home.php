@@ -8,10 +8,10 @@
         <h3><a href="#">Secuencias de Comandos en Sitios Cruzados (XSS) - SOAP</a></h3>
         
         <p align="justify">
-	Los ataques de Cross Site Scripting Stored se producen cuando la aplicación no valida las entradas del usuario contra scripts maliciosos, y ocurre cuando estos scripts se almacenan 
-	en la base de datos. La víctima se infecta cuando visita una página web que carga estos scripts maliciosos desde la base de datos. Por ejemplo, foro de mensajes, página de 
-	comentarios, registros de visitantes, página de perfil, etc.      </p><br><br>
-        <p>Leer más de Secuencias de comandos en sitios cruzados (XSS) - Almacenado<br><br>
+	Los ataques de Cross Site Scripting Stored se producen cuando la aplicacin no valida las entradas del usuario contra scripts maliciosos, y ocurre cuando estos scripts se almacenan 
+	en la base de datos. La vctima se infecta cuando visita una pgina web que carga estos scripts maliciosos desde la base de datos. Por ejemplo, foro de mensajes, pgina de 
+	comentarios, registros de visitantes, pgina de perfil, etc.      </p><br><br>
+        <p>Leer ms de Secuencias de comandos en sitios cruzados (XSS) - Almacenado<br><br>
         <a target="_blank" href="https://www.welivesecurity.com/la-es/2013/12/04/stored-xss-impacto-sobre-usuario/">https://www.welivesecurity.com/la-es/2013/12/04/stored-xss-impacto-sobre-usuario/</a></p>
 	<a target="_blank" href="https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)#Stored_XSS_Attacks">https://donttouchmy.net/introduccion-ataques-xss/</a></p>
 	<a target="_blank" href="https://donttouchmy.net/introduccion-ataques-xss/">https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)#Stored_XSS_Attacks</a></p>
@@ -31,7 +31,7 @@
                     <input class="form-control" placeholder="Anonymous" name="name"></input> <br>
                     <b>Ingresa tu comentario</b>
                     <textarea class="form-control" name="msg"> </textarea> <br>
-                    <div align="right"> <button class="btn btn-default" type="submit">Enviar Publicación</button></div>
+                    <div align="right"> <button class="btn btn-default" type="submit">Enviar Publicacin</button></div>
                </div> 
             </form>
         </p>
