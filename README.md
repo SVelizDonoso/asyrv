@@ -103,6 +103,10 @@ file_uploads = on
 allow_url_fopen = on 
 allow_url_include = on 
 ```
+Reiniciar el servidor apache2
+```php
+service apache2 restart
+```
 
 Acceso a la Web : http://localhost/asyrv/
 Configure la base de datos y la tabla accediendo http://localhost/asyrv/setup/ 
