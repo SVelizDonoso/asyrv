@@ -60,6 +60,13 @@ Instalacion dependencias:<br>
 sudo apt-get install php-json php-xml php-soap php-mysql
 ```
 
+Levantamos el servidor apache2 y mysql:
+Instalacion dependencias:<br>
+```php
+service apache2 start
+service mysql start
+```
+
 Descarga del proyecto:<br>
 ```php
 cd /var/www/html
@@ -71,7 +78,7 @@ Luego se debe crear la base de datos con los siguientes comandos:<br>
 ```php
 mysql -u root
 CREATE DATABASE asyrvdb;
-CREATE USER 'asyrv@'localhost' IDENTIFIED BY 'asyrv';
+CREATE USER 'asyrv'@'localhost' IDENTIFIED BY 'asyrv';
 GRANT ALL PRIVILEGES ON * . * TO 'asyrv'@'localhost';
 FLUSH PRIVILEGES;
 ```
