@@ -128,8 +128,8 @@ ASYRV está diseñado intencionalmente con muchos fallos de seguridad y suficien
 - Sebastian Veliz Donoso https://www.linkedin.com/in/sebastianvelizdonoso/
 - Correo: cyslabs@gmail.com
 
-## QA:
--Yussef Dajdaj
+## Contribución:
+- Yussef Dajdaj
 
 ## Buena Suerte y Happy Hacking!
 
