@@ -3,7 +3,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Navegación</span>
+            <span class="sr-only">Navegaci&oacute;n</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -19,12 +19,12 @@
                     if(isset($_SESSION['user'])){
                         echo "<a href='#' class='dropdown-toggle' data-toggle='dropdown'> " . ucfirst(($_SESSION['user'])) . " <b class='caret'></b></a>";
                         echo "<ul class='dropdown-menu'>";
-                        echo "<li><a href='asyrv/logout.php'>Salir</a></li>";
+                        echo "<li><a href='/asyrv/logout.php'>Salir</a></li>";
                         echo "</ul>";
                     }else{
                       echo "<a class='dropdown-toggle' href='#' data-toggle='dropdown' id='navLogin'>Login</a>";
                       echo "<div class='dropdown-menu' style='padding:17px;'>";
-                      echo "<form class='form' method='POST' id='formLogin' action='asyrv/login.php'>"; 
+                      echo "<form class='form' method='POST' id='formLogin' action='/asyrv/login.php'>"; 
                       echo "<input name='username'  id='username' placeholder='Username' type='text'><br>";
                       echo "<input name='password'  id='password' placeholder='Password' type='password'><br><br>";
                       echo "<button type='submit' id='btnLogin' class='btn btn-primary pull-right'>Ingreso</button>";

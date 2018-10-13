@@ -51,31 +51,52 @@ Para ver una copia de esta licencia visita http://www.gnu.org/licenses/gpl-3.0.t
 ASYRV es fácil de instalar y Puede ser configurado Linux por el momento. Los siguientes son los pasos básicos que debes seguir en tu entorno Para la instalacion. Puedes usar WAMP, XAMP o cualquier cosa Apache-PHP-MYSQL para que funcione correctamente
 
 
-## Instalación Manual
+## Instalación Manual Kali Linux 2018
 
-Copie la carpeta asyrv en su directorio web raíz. Asegúrese de que el nombre del directorio sea asyrv. Realice los cambios necesarios en asyrv/config.php para la conexión a la base de datos. Ejemplo a continuación:
+Copie la carpeta asyrv en su directorio web raíz. Asegúrese de que el nombre del directorio sea asyrv. Realice los cambios necesarios en asyrv/config.php para la conexión a la base de datos. Ejemplo a continuación:<br><br>
+
+Instalacion dependencias:<br>
+```php
+sudo apt-get install php-json php-xml php-soap php-mysql
+```
+
+Descarga del proyecto:<br>
+```php
+cd /var/www/html
+git clone https://github.com/SVelizDonoso/asyrv.git
+chmod 755 asyrv/
+cd asyrv
+```
+Luego se debe crear la base de datos con los siguientes comandos:<br>
+
+mysql -u root
+CREATE DATABASE asyrvdb;
+CREATE USER 'asyrv@'localhost' IDENTIFIED BY 'asyrv';
+GRANT ALL PRIVILEGES ON * . * TO 'asyrv'@'localhost';
+FLUSH PRIVILEGES;
+```
+Luego se debe cambiar los parametros de la base de datos en el archivo config.php
 
 ```php
-$XVWA_WEBROOT = '';  
+nano config.php
+
+$ASYRV_WEBROOT = '';  
 $host = "localhost"; 
-$dbname = 'xvwa';  
-$user = 'root'; 
-$pass = 'root';
+$dbname = 'asyrvdb';  
+$user = 'asyrv'; 
+$pass = 'asyrv';
 ```
+
 
 Realice los siguientes cambios en el archivo de configuración de PHP. 
 
 ```php
+nano /etc/php/7.2/apache2/php.ini
 file_uploads = on 
 allow_url_fopen = on 
 allow_url_include = on 
 ```
-Instalar extenciones extensiones XML y JSON según corresponda:
 
-```php
-sudo apt-get install php-json php-xml
-sudo apt-get install php5-json php5-xml
-```
 Acceso a la Web : http://localhost/asyrv/
 Configure la base de datos y la tabla accediendo http://localhost/asyrv/setup/ 
 Detalles del Acceso:

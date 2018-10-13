@@ -5,32 +5,32 @@
                     <img class="img-responsive" src="http://placehold.it/800x300" alt="">
                 -->
                 <div class="caption-full">
-                    <h4><a href="#">Aplicación SOAP y REST Vulnerable (ASYRV) - Instrucciones</a></h4>
+                    <h4><a href="#">Aplicaci&oacute;n SOAP y REST Vulnerable (ASYRV) - Instrucciones</a></h4>
 
                     <p align="justify">
-                       ASYRV es fácil de instalar y Puede ser configurado Linux por el momento. Los siguientes son los pasos básicos que debes seguir en tu entorno 
+                       ASYRV es f&aacute;cil de instalar y Puede ser configurado Linux por el momento. Los siguientes son los pasos b&aacute;sicos que debes seguir en tu entorno 
                        Para la instalacion. Puedes usar WAMP, XAMP o cualquier cosa  Apache-PHP-MYSQL para que funcione correctamente  </p>
                     <p align="justify">
-                       Copie la carpeta asyrv en su directorio web raíz. Asegúrese de que el nombre del directorio sea asyrv. 
-                       Realice los cambios necesarios en asyrv/config.php para la conexión a la base de datos. Ejemplo a continuación:<br><br>
+                       Copie la carpeta asyrv en su directorio web ra&iacute;z. Aseg&uacute;rese de que el nombre del directorio sea asyrv. 
+                       Realice los cambios necesarios en asyrv/config.php para la conexi&oacute;n a la base de datos. Ejemplo a continuaci&oacute;n:<br><br>
                         <code>
                             $ASYRV_WEBROOT = ''; <br>
                             $host = "localhost"; <br>
-                            $dbname = 'asyrv'; <br> 
-                            $user = 'root'; <br> 
-                            $pass = ''; 
+                            $dbname = 'asyrvdb'; <br> 
+                            $user = 'asyrv'; <br> 
+                            $pass = 'asyrv'; 
                         </code><br><br>
                        
-			Realice los siguientes cambios en el archivo de configuración de PHP. <br><br>
+			Realice los siguientes cambios en el archivo de configuraci&oacute;n de PHP. <br><br>
                         <code>
                             file_uploads = on  <br>
                             allow_url_fopen = on <br>
                             allow_url_include = on 
                         </code> <br><br>   
-                        Instalar extenciones extensiones XML y JSON según corresponda:<br><br>
+                        Instalar extenciones extensiones XML y JSON seg&uacute;n corresponda:<br><br>
                         <code>
-                            sudo apt-get install php-json php-xml<br>
-                            sudo apt-get install php5-json php5-xml<br>
+                            sudo apt-get install php-json php-xml php-soap php-mysql<br>
+                            sudo apt-get install php5-json php5-xml php5-soap php5-mysql<br>
                         </code>  <br><br>
                     </p>
                     <p align="justify">
@@ -54,9 +54,9 @@
 
                 <div class="well">
                      <p>
-                        <strong>Aclaración</strong><br>
-                       No aloje esta aplicación en linea ni en el entorno de producción. ASYRV es una aplicación totalmente vulnerable y el acceso en línea de esta aplicación
-                       podría llevar a un completo compromiso de su sistema. No somos responsables de dichos incidentes. Mantenerse a salvo por favor ! 
+                        <strong>Aclaraci&oacute;n</strong><br>
+                       No aloje esta aplicaci&oacute;n en linea ni en el entorno de producci&oacute;n. ASYRV es una aplicaci&oacute;n totalmente vulnerable y el acceso en l&iacute;nea de esta aplicaci&oacute;n
+                       podr&iacute;a llevar a un completo compromiso de su sistema. No somos responsables de dichos incidentes. Mantenerse a salvo por favor ! 
                     </p>
                     <hr>
 

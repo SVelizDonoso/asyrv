@@ -1,9 +1,9 @@
 <?php
 $ASYRV_WEBROOT = "";
 $host = "localhost";
-$dbname = 'asyrv';
-$user = "root";
-$pass = "";
+$dbname = 'asyrvdb';
+$user = "asyrv";
+$pass = "asyrv";
 $conn = new mysqli($host,$user,$pass,$dbname);
 try {
 	$conn1 = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
